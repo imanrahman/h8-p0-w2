@@ -3,7 +3,7 @@ function xo(str) {
     var jumlahX = 0;
     var jumlahO = 0;
     length = str.length - 1
-    for(x=0; x<= length;x++){
+    for(var x=0; x<= length;x++){
       if(str[x] == "x"){
         jumlahX = jumlahX + 1
       } else if(str[x] =="o"){

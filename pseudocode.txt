@@ -1,0 +1,38 @@
+NEWTON SECOND LAW
+-----------------------------------------------
+STORE `masabenda` with 600
+STORE `percepatanbenda`with  2
+STORE `resultangaya` without any value
+CALCULATE `masabenda` multiple `percepatanbenda`
+SET `resultangaya` value with calculation resul
+
+DISPLAY `resultangaya`
+
+
+TAHUN KABISAT
+------------------
+STORE 'tahun' with any value
+IF 'tahun' % 4 = 0 and 'tahun' % 100 != 0
+ELSE IF 'tahun' % 4 = 0 and 'tahun' % 100 = 0 and 'tahun' % 400 = 0
+
+Display 'tahun kabisat' 
+
+DAILY LOUNDRY
+----------------------------
+STORE `cucian` with 0
+WHILE `cucian` <20
+  ADD `cucian` by 1
+
+DISPLAY `sudah masuk semua`
+
+PERIKSA KUKU
+-----------------
+STORE 'siswa' with 40
+
+WHILE 'siswa' < 40
+STORE 'Periksa kuku'
+IF 'periksa kudu' is 'tidal panjang'
+ DISPLAY "puji"
+ELSE
+ DISPLAY "hukum"
+
